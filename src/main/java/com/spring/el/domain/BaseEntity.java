@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @MappedSuperclass
-public abstract  class BaseEntity {
+public abstract class BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -17,7 +17,7 @@ public abstract  class BaseEntity {
     @PrePersist
     public void prePersist() {
         createDate = new Date();
-        modifyDate =  createDate;
+        modifyDate = createDate;
     }
 
     @PreUpdate

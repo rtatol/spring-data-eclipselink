@@ -1,6 +1,6 @@
-# spring-boot-data-jpa-eclipselink
+# spring-boot-eclipselink
 
-Sample application demonstrates how to use Spring-Boot with Spring-Data-JPA and EclipseLink as implementation od JPA
+Sample application demonstrates how to use Spring-Boot with Spring-Data-JPA and EclipseLink as implementation of JPA
 
 ###### QuickStart
 ```

@@ -1,13 +1,6 @@
 server:
   port: 38080
 
-#spring:
-#  datasource:
-#    driverClassName: org.h2.Driver
-#    url: jdbc:h2:~/_spring_data_jpa_eclipselink_test_db;AUTO_SERVER=TRUE;AUTO_RECONNECT=TRUE;
-#    username: test
-#    password: test123
-
 spring:
     datasource:
         platform: h2
@@ -19,7 +12,6 @@ spring:
         properties:
             eclipselink.persistence-context.flush-mode: COMMIT
             eclipselink.weaving: static
-            eclipselink.ddl-generation.output-mode: sql-script
             eclipselink.ddl-generation: create-tables
             eclipselink.logging.timestamp: false
             eclipselink.logging.session: false

@@ -12,8 +12,7 @@ spring:
         properties:
             eclipselink.persistence-context.flush-mode: COMMIT
             eclipselink.weaving: static
-            eclipselink.ddl-generation.output-mode: sql-script
-            eclipselink.ddl-generation: create-tables
+            eclipselink.ddl-generation: drop-and-create-tables
             eclipselink.logging.timestamp: false
             eclipselink.logging.session: false
             eclipselink.logging.connection: false
